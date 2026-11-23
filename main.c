@@ -21,7 +21,7 @@ int main(void) {
     if (scanf("%d", &input_value) != 1 || input_value <= 0) {
         printf("NG");
         return 0;
-    }  
+    }    
 
     reverse_bits(&input_value, &reversed_value);
     printf("%d,%d", input_value, reversed_value);
